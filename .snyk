@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - unifile > sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2019-04-21T04:48:41.243Z'
+    - unifile > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-04-21T04:48:41.243Z'
+    - unifile > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-04-21T04:48:41.243Z'
+    - unifile > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-21T04:48:41.243Z'
+  'npm:request:20160119':
+    - unifile > dbox > request:
+        patched: '2019-04-21T04:48:41.243Z'
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2019-04-21T04:48:41.243Z'
+    - unifile > jade > transformers > uglify-js:
+        patched: '2019-04-21T04:48:41.243Z'
+    - unifile > jade > constantinople > uglify-js:
+        patched: '2019-04-21T04:48:41.243Z'
